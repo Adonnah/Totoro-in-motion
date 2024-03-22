@@ -1,0 +1,52 @@
+button {
+    background-color: plum;
+    padding: 1em;
+    border-radius: 1em;
+    border: purple 0.2em solid;
+    font-size: x-large;
+}
+
+button:hover {
+    background: pink;
+    padding: 1em;
+    border-radius: 1em;
+    border: black 0.2em solid;
+    box-shadow: 0 0.125em 1em 0.0625em;
+}
+
+.button {
+    justify-content: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.heart {
+    width: 6em;
+    border-radius: 0.7em;
+    margin-right: 3.25em;
+    margin-left: 3.25em;
+    padding: 0.55em;
+}
+
+image {
+    width: 10em;
+    
+}
+
+.Totoro {
+    display: flex;
+    justify-content: center; 
+}
+
+h1 {
+    display: flex;
+    justify-content: center; 
+    font-size: 4em;
+    color: black;
+}
+
+h2 {
+    margin-right: 3.25em;
+    margin-left: 3.25em;
+}
+
