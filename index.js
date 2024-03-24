@@ -32,10 +32,17 @@ const swimButton = document.getElementById('swimButton')
 
 function swim () {
     console.log('swim')
-    totoro.src='image/totoroswimming.gif'
+    // verander de afbeelding
     Geluid.play();
+    if (getal > 5) {
+        totoro.src='image/totoroswimming.gif'
+    }
+    else {
+       totoro.src='image/tototocry.gif'
+    }
 }
 swimButton.addEventListener('click', swim)
+//als je op de button swim klikt voert hij de function uit
 
 const musButton = document.getElementById('musButton')
 
@@ -63,3 +70,5 @@ function updateGetal (){
 plusKnop.addEventListener('click', verhoogGetal)
 
 const Geluid = new Audio('sounds/myneighbortotoro.mp3')
+
+
